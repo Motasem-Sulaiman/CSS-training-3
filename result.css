@@ -1,0 +1,134 @@
+.container{
+   font-size: 18px;
+    display: flex;
+    margin:auto;
+    margin-top:100px;
+    width: 550px;
+    border-radius: 15px;
+    text-align: center;
+    min-height: 390px;
+    font-family: 'Hanken Grotesk';
+   
+}
+.container2{
+    
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+    border-radius: 15px;
+     width: 350px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     width:400px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+  
+    box-shadow:5px 5px 5px 5px rgb(229, 224, 224);
+}
+.result{
+    min-height: 120px;
+    /* text-align: center; */
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1) ,hsla(241, 72%, 46%, 0));
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top:40px;
+    border-radius: 50%;
+}
+#num{
+font-size: 47px;
+color:hsl(0, 0%, 100%);
+
+}
+#scored{
+    margin-top:10px;
+    color:hsl(0, 1%, 82%);
+    font-size: 14px;
+    max-width: 200px;
+    margin:auto;
+    margin-top:10px
+}
+#result{
+    margin-top:20px;
+    color:hsl(0, 2%, 74%);
+    
+}
+
+#of100{
+    font-size: 13px;
+    color:hsl(0, 5%, 84%);
+    /* font-weight: 700; */
+}
+#Great{
+    margin-top: 10px;
+    font-size:22px;
+    color:hsl(0, 0%, 100%);
+    
+}
+
+
+
+#rea{
+    color:hsl(0, 100%, 67%)
+   
+}
+#mem  {
+    color:hsl(39, 100%, 56%)
+}
+#vir  {
+    color:hsl(166, 100%, 37%)
+}
+#vis  {
+    color:hsl(234, 85%, 45%)
+}
+.black{
+ color:black
+}
+     .container3 div{
+         display:flex;
+         justify-content: space-evenly;
+     }
+
+     #summary{
+        margin-right: 140px;
+        margin-top: 18px;
+        font-weight: bold;
+     }
+     #readiv{
+        background-color: hsl(0, 36%, 90%);
+        padding: 10px;
+        margin-left: 20px;
+        margin-right:20px;
+        border-radius: 10px;
+     }
+     #visdiv{
+        background-color: hsl(221, 100%, 96%);
+        padding: 10px;
+        margin-left: 20px;
+        margin-right:20px;
+        border-radius: 10px;
+     }
+     #virdiv{
+        background-color: hsl(133, 100%, 93%);
+        padding: 10px;
+        margin-left: 20px;
+        margin-right:20px;
+        border-radius: 10px;
+     }
+     #memdiv{
+        background-color: hsl(61, 100%, 89%);
+        padding: 10px;
+        margin-left: 20px;
+        margin-right:20px;
+        border-radius: 10px;
+     }
+    .button{
+      background-color: hsl(224, 30%, 27%);
+    width: 200px;
+    border-radius: 20px;
+    margin:0 auto;
+    color:hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding:10px;
+    }
